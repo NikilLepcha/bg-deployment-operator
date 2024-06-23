@@ -1,0 +1,12 @@
+apiVersion: bgdeploymentoperator.example.com/v1alpha1
+kind: BGDeploymentOperator
+metadata:
+  labels:
+    app.kubernetes.io/name: bgdeploymentoperator
+    app.kubernetes.io/instance: bgdeploymentoperator-sample
+    app.kubernetes.io/part-of: bg-deployment-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: bg-deployment-operator
+  name: bgdeploymentoperator-sample
+spec:
+  # TODO(user): Add fields here
